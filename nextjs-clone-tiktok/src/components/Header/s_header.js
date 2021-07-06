@@ -19,7 +19,9 @@ export const Content = styled.div`
   padding: 0 20px;
 `
 export const LogoContainer = styled.div`
-  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 `
 export const LogoIcon = styled.img`
   width: 28px;

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {
   Container,
   Content, LogoContainer, LogoIcon, Logo, OptionsContainer, Icon, Avatar
@@ -9,13 +10,14 @@ const Header = () => {
     <Container>
       <Content>
         <LogoContainer>
-          <LogoIcon src='/images/logoIcon.svg'> </LogoIcon>
-          <Logo src='/images/logo.svg'> </Logo>
+          <LogoIcon src='/images/logoIcon.svg' />
+          <Logo src='/images/logo.svg' />
         </LogoContainer>
+
         <OptionsContainer>
-          <Icon> </Icon>
+          <Icon src='/images/uploadIcon.svg' />
           <Avatar>
-            <img src='https://avatars.githubusercontent.com/u/47955200?v=4' />
+            <img src='/images/avatar.jpg'/>
           </Avatar>
         </OptionsContainer>
       </Content>
