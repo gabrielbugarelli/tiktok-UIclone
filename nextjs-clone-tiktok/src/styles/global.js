@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
 
   html, body {
     font-family: sofiapro;
+    overflow-x: hidden;
   }
 `
 export default GlobalStyle
