@@ -7,14 +7,12 @@ export const Container = styled.div`
   height: 45px;
   padding: 0 16px;
 `
-
 export const Avatar = styled.img`
   width: 44px;
   height: 44px;
   border-radius: 50%;
   margin-right: 12px;
 `
-
 export const Info = styled.div`
   display: flex;
   flex-direction: column;

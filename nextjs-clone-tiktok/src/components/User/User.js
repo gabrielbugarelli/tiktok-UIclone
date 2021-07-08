@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Container, Avatar, Info } from './s_user'
 
-export default function User ({ user }) {
+export default function User({ user }) {
   return (
     <Container>
       <Avatar src={user.avatar} />

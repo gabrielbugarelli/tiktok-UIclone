@@ -1,9 +1,12 @@
 import Layout from '../components/Layout/Layout'
+import Feed from '../components/Feed/Feed'
+import Suggestions from '../components/Suggestions/Suggestions'
 
-const Index = () => {
+const Index = ({ posts = [] }) => {
   return (
     <Layout>
-      TikTok
+      <Feed posts={posts} />
+      <Suggestions />
     </Layout>
   )
 }
