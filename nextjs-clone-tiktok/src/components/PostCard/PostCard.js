@@ -37,7 +37,7 @@ const PostCard = ({ post }) => {
             </Author>
             <Description>
               <span>{post?.description}</span>
-              {post?.tags.map((tag, index) => (
+              {post?.tags?.map((tag, index) => (
                 <Tag key={index}>
                   {tag.title}
                 </Tag>

@@ -17,7 +17,7 @@ const Header = () => {
         <OptionsContainer>
           <Icon src='/images/uploadIcon.svg' />
           <Avatar>
-            <img src='/images/avatar.jpg'/>
+            <img src='https://avatars.githubusercontent.com/u/47955200?s=60&v=4' />
           </Avatar>
         </OptionsContainer>
       </Content>
